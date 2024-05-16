@@ -1,0 +1,121 @@
+body
+{
+    background: #007f82;
+    font-family: 'MS Sans Serif';
+}
+        
+.card 
+{
+    display: flex;
+    overflow: hidden;
+    padding: 15px;
+    background: #c3c3c3;
+    color: black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    width:700px;
+    
+}
+
+.navbar
+{
+    background: #c3c3c3;
+    color: black;
+    border-bottom: 2px solid white;
+}
+        
+.navbar-toggler-icon 
+{
+    background-color: rgba(255, 255, 255, 1); /* Set hamburger icon color with full opacity */
+}
+
+.btn 
+{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    width: 190px;
+    height: 35px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nav-link 
+{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    text-align: center;
+    line-height: 20px;
+    background: #c3c3c3;
+    padding: 3px;
+    margin-right: 5px;
+    color: black;
+}
+
+
+.blue-bar 
+{
+    position: absolute;
+    top: 0;
+    left: 0; /* Adjust the left position */
+    width: calc(100% - 3px);
+    height: 25px; /* Adjust the height of the blue bar */
+    background-color: #000082; /* Blue color for the bar */
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.blue-text 
+{
+    color: white; /* Set text color */
+    font-size: 14px; /* Set font size */
+    margin: 0; /* Remove default margin */
+    padding: 5px; /* Add padding */ 
+}
+
+.form-control 
+{
+    border-top: 3px solid #818181;
+    border-left: 3px solid #818181;
+    border-bottom: 3px solid #d5d5d5;
+    border-right: 3px solid #d5d5d5;
+}
+
+input[name="search"] 
+{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    background: #e0e0e0;
+    outline: none;
+}
+
+.text-box 
+{
+    padding: 10px;
+    border-radius: 5px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    background: #ffffdf;
+
+                
+}
+
+.image
+{
+    width: 50px;
+    height: auto; 
+}
+
+
+
+
