@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- Author: Dhruv Rana
+     Course: CSIT337_01SP24
+     Assignment: HW2 - Excercise 3 Form Text Box Hovering with Focus Class
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form with Hovering Focus</title>
+        <style>
+            label{
+                display: inline-block;
+                width: 105px;
+                margin: right;
+            }
+            p{
+                height: 30px;
+            }
+
+            #rest-button{
+                margin-left: 50px;
+            }
+            input:hover{
+                background-color: cyan;
+                color: red;
+                font-size: 30px;
+                font-weight: bold;
+                height: 30px;
+                width: 300px;
+            }
+
+            input:focus {
+                background-color: yellow;
+                color: blue;
+                font-size: 30px;
+                font-weight: bold;
+                height: 30px;
+                width: 300px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <label>Last Name:</label>
+            <input type = "text" name="lastname" required> </br>
+            
+            <label>First Name:</label>
+            <input type = "text" name="firstname" required> </br>
+            
+            <label>E-mail Address:</label>
+            <input type = "email" name="email" required> </br>
+
+            <button type = "submit"> Submit</button>
+            <button type = "reset" id="rest-button"> Clear </button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Author: Dhruv Rana
+     Course: CSIT337_01SP24
+     Assignment: HW2 - Excercise 4 Image and Links with @Media Printer
+-->
+
+<html>
+    <head>
+        <title>Image and Links with @Media Printer</title>
+    </head>
+
+    <style>
+
+        body{background-color: grey;
+            text-align: center;}
+        h1{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+        @media print{
+            body{
+                background-color: white;
+                color: black;
+            }
+            h1{
+                color: black
+            }
+            p{
+                color: black
+            }
+            img{
+                display: none;
+            }
+        }
+
+    </style>
+
+    <body>
+        <p>
+           <img src = "montclair-logo-red.png" height = "120" width="500"
+              alt = "Montclair State University" class="center">        
+           <img src = "hawk-logo-color.png" height = "120" width="150"
+              alt = "Rocky" class="center">
+        </p>
+     </body>
+        
+     <body>
+        <h1><strong>Click on the following links to get the web site of the best colleges</strong></h1>
+  
+        <!-- create four text hyperlinks -->
+        <p> MSU <a href = "https://www.montclair.edu/">The best state universtiy of New Jersey</a></p>
+        <p> MIT <a href = "http://www.mit.edu/"> The best engineering college in Boston</a></p>
+        <p> Princeton <a href = "https://www.princeton.edu/">The best private college in New Jersey</a></p>
+     </body>
+    </head>
+</html>

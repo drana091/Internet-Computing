@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Author: Dhruv Rana
+     Course: CSIT337_01SP24
+     Assignment: HW1 - Excercise 3 Nested Lists
+-->
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Nested Lists</title>
+        <style>
+            h3{
+                color :blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>Aircraft Types</h3>
+        <ul>
+            <li>                        
+                General Aviation (piston-driven engines)
+                <ol>
+                    <li>
+                        Single-Engine Aircraft
+                        <ol id ="o1" type="i">
+                            <li>Tail wheel</li>
+                            <li>Tricycle</li>
+                        </ol>
+                    </li>
+                    <br>
+
+                    <li>
+                        Dual-Engine Aircraft
+                        <ol id="o2" type="I">
+                            <li>Wing-mounted engines</li>
+                            <li>Push-pull fuselage-mounted engines</li>
+                        </ol>
+                    </li>
+                    <br>
+                </ol>
+            </li>
+            <li>
+                Commercial Aviation (jet engines)
+                <ol>
+                    <li>Dual-Engine
+                        <ol id="o3" type="a">
+                            <li>Wing-mounted engines</li>
+                            <li>Fuselage-mounted engines</li>
+                        </ol>
+                    </li>
+                    <br>
+                    <li>
+                        Tri-Engine
+                        <ol id="o4" type="A">
+                            <li>Third engine in vertical stabilizer</li>
+                            <li>Third engine in fuselage</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </body>
+</html>

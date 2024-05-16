@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- Author: Dhruv Rana
+     Course: CSIT337_01SP24
+     Assignment: HW2 - Excercise 2 Fruit Table Hover with Color Changing Cells
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Fruit Table</title>
+        <style>
+            table{ 
+                margin: auto;
+                width: 40%;
+                border: 2px solid black;
+            }
+            caption{
+                font-weight: bold;
+            }
+
+            th, td {
+                border: 2px solid black;
+                padding: 2px;
+            }
+
+            tr:hover {
+                background-color: cyan;
+            }
+
+            tr:hover td {
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+            thead:hover{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            tfoot:hover{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            td:hover{
+                color: red;
+                border: 2px solid red;
+            }
+
+            th:hover{
+                color: red;
+                border: 2px solid red;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>My Favorite Fruits</caption>
+            <thead>
+                <tr>
+                    <th>Fruit</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th>$ 4.25</th>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                <tr>
+                    <td>Apple</td>
+                    <td>$ 0.25</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>$ 0.50</td>
+                </tr>
+                <tr>
+                    <td>Banana</td>
+                    <td>$ 1.00</td>
+                </tr>
+                <tr>
+                    <td>Pineapple</td>
+                    <td>$ 2.00</td>
+                </tr>
+                <tr>
+                    <td>Kiwi</td>
+                    <td>$ 0.50</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

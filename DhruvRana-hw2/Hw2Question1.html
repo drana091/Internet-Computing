@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Author: Dhruv Rana
+     Course: CSIT337_01SP24
+     Assignment: HW2 - Excercise 1 Image and Links with Hover
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Image and Links with Hover</title>
+    <style>
+
+        body{background-color: lightgreen;
+            text-align: center;}
+        .text a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .image img{
+            width: 200px;
+            height: 200px;
+            transition: transform 0.3s;
+        }
+
+        .image .grow-hover img:hover{
+            height: 300px;
+            width: 300px;
+        }
+        .image .shrink-hover img:hover{
+            height: 100px;
+            width: 100px;
+        }
+
+
+    </style>
+    </head>
+
+    <body>
+        <div class="image">
+            <a class="grow-hover">
+                <img src = "montclair-logo-red.png" alt = "Montclair State University">
+            </a>
+            <a class="shrink-hover">     
+                <img src = "hawk-logo-color.png" alt = "Rocky">
+            </a>    
+        </div>
+     </body>
+        
+     <div class="text">
+        <h1><strong>Click on the following links to get the web site of the best colleges</strong></h1>
+  
+        <p> MSU <a href = "https://www.montclair.edu/">The best state universtiy of New Jersey</a></p>
+        <p> MIT <a href = "http://www.mit.edu/"> The best engineering college in Boston</a></p>
+        <p> Princeton <a href = "https://www.princeton.edu/">The best private college in New Jersey</a></p>
+     </div>
+    </body>
+</html>
